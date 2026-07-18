@@ -7,7 +7,7 @@ int main() {
 
     do {
         printf("\n=========================================\n");
-        printf("       CATALOGO DE VIDEOJUEGOS\n");
+        printf("              MiJo GAMES \n");
         printf("=========================================\n");
         printf("1. Buscar un juego por el nombre\n");
         printf("2. Busqueda por categorias\n");

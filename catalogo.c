@@ -9,10 +9,13 @@ int total_juegos = 0;
 const char* ARCHIVO_DB = "videojuegos.txt"; 
 NodoArbol *raiz_arbol = NULL;
 
+void merge(Videojuego arr[], int izquierda, int medio, int derecha);
+void merge_sort_recursivo(Videojuego arr[], int izquierda, int derecha);
+
 void cargar_datos() {
     FILE *file = fopen(ARCHIVO_DB, "r");
     if (file == NULL) {
-        printf("No se encontró el archivo %s. Se creara uno nuevo al guardar.\n", ARCHIVO_DB);
+        printf("No se encontró el archivo %s. Se creará uno nuevo al guardar.\n", ARCHIVO_DB);
         return;
     }
     
@@ -55,7 +58,7 @@ void buscar_por_nombre() {
     fgets(buscador, MAX_STR, stdin);
     buscador[strcspn(buscador, "\n")] = 0; 
 
-    printf("\nResultados de busqueda indexada (ABB):\n");
+    printf("\nResultados de búsqueda indexada (ABB):\n");
     
     NodoArbol *resultado = buscar_en_arbol(raiz_arbol, buscador);
     
@@ -95,23 +98,23 @@ void buscar_por_categoria() {
     }
 
     if(total_cat == 0) {
-        printf("No hay categorias registradas.\n");
+        printf("No hay categorías registradas.\n");
         return;
     }
 
-    printf("\n--- CATEGORiAS REGISTRADAS ---\n");
+    printf("\n--- CATEGORÍAS REGISTRADAS ---\n");
     for(int i = 0; i < total_cat; i++) {
         printf("%d- %s\n", i + 1, categorias_unicas[i]);
     }
-    printf("0- Volver al menu principal\n");
+    printf("0- Volver al menú principal\n");
     
     int opc_cat;
-    printf("Seleccione una categoria: ");
+    printf("Seleccione una categoría: ");
     scanf("%d", &opc_cat);
     getchar();
 
     if(opc_cat > 0 && opc_cat <= total_cat) {
-        printf("\nJuegos en la categoria '%s':\n", categorias_unicas[opc_cat - 1]);
+        printf("\nJuegos en la categoría '%s':\n", categorias_unicas[opc_cat - 1]);
         for(int i = 0; i < total_juegos; i++) {
             if(comparar_ignorable(catalogo[i].categoria, categorias_unicas[opc_cat - 1]) == 0) {
                 printf("- %s (Rating: %.1f) [%s]\n", catalogo[i].nombre, catalogo[i].rating, catalogo[i].plataforma);
@@ -121,20 +124,17 @@ void buscar_por_categoria() {
 }
 
 void mostrar_ordenado_rating() {
+    if (total_juegos == 0) {
+        printf("\nNo hay juegos en el catálogo para ordenar.\n");
+        return;
+    }
+
     Videojuego temporal[MAX_JUEGOS];
     memcpy(temporal, catalogo, sizeof(Videojuego) * total_juegos);
 
-    for(int i = 0; i < total_juegos - 1; i++) {
-        for(int j = 0; j < total_juegos - i - 1; j++) {
-            if(temporal[j].rating < temporal[j+1].rating) {
-                Videojuego aux = temporal[j];
-                temporal[j] = temporal[j+1];
-                temporal[j+1] = aux;
-            }
-        }
-    }
+    merge_sort_recursivo(temporal, 0, total_juegos - 1);
 
-    printf("\n--- JUEGOS ORDENADOS POR RATING (MAYOR A MENOR) ---\n");
+    printf("\n--- JUEGOS ORDENADOS POR RATING CON MERGE SORT (MAYOR A MENOR) ---\n");
     for(int i = 0; i < total_juegos; i++) {
         printf("Rating: %.1f | %s [%s]\n", temporal[i].rating, temporal[i].nombre, temporal[i].plataforma);
     }
@@ -162,7 +162,7 @@ void mostrar_biblioteca_plataforma(const char* plataforma) {
 
 void agregar_juego() {
     if(total_juegos >= MAX_JUEGOS) {
-        printf("Catalogo lleno. No se pueden agregar mas juegos.\n");
+        printf("Catálogo lleno. No se pueden agregar más juegos.\n");
         return;
     }
 
@@ -180,7 +180,7 @@ void agregar_juego() {
     }
 
     if(indice_existente != -1) {
-        printf("\n[!] El juego ya existe en la base de datos (ID: %d). Se heredaran sus datos.\n", catalogo[indice_existente].id);
+        printf("\n[!] El juego ya existe en la base de datos (ID: %d). Se heredarán sus datos.\n", catalogo[indice_existente].id);
         
         nuevo.id = catalogo[indice_existente].id;
         nuevo.rating = catalogo[indice_existente].rating;
@@ -193,7 +193,7 @@ void agregar_juego() {
         catalogo[total_juegos] = nuevo;
         raiz_arbol = insertar_nodo_arbol(raiz_arbol, nuevo);
         total_juegos++;
-        printf("¡Nueva plataforma agregada con exito al juego existente!\n");
+        printf("¡Nueva plataforma agregada con éxito al juego existente!\n");
     } 
     else {
         printf("Ingrese la plataforma (Steam/Epic): ");
@@ -204,7 +204,7 @@ void agregar_juego() {
         scanf("%f", &nuevo.rating);
         getchar();
 
-        printf("Ingrese la categoria: ");
+        printf("Ingrese la categoría: ");
         fgets(nuevo.categoria, MAX_STR, stdin);
         nuevo.categoria[strcspn(nuevo.categoria, "\n")] = 0;
 
@@ -217,13 +217,13 @@ void agregar_juego() {
         catalogo[total_juegos] = nuevo;
         raiz_arbol = insertar_nodo_arbol(raiz_arbol, nuevo);
         total_juegos++;
-        printf("¡Juego agregado exitosamente con ID %d! Se guardara de forma permanente al salir.\n", nuevo.id);
+        printf("¡Juego agregado exitosamente con ID %d! Se guardará de forma permanente al salir.\n", nuevo.id);
     }
 }
 
 void borrar_biblioteca() {
     char confirmacion;
-    printf("\n[¡ADVERTENCIA!] ¿Esta seguro de que desea BORRAR COMPLETAMENTE la biblioteca? (S/N): ");
+    printf("\n[¡ADVERTENCIA!] ¿Está seguro de que desea BORRAR COMPLETAMENTE la biblioteca? (S/N): ");
     scanf(" %c", &confirmacion);
     getchar();
 
@@ -236,9 +236,9 @@ void borrar_biblioteca() {
         if (file != NULL) {
             fclose(file); 
         }
-        printf("Biblioteca vaciada y archivo de texto limpiado con exito.\n");
+        printf("Biblioteca vaciada y archivo de texto limpiado con éxito.\n");
     } else {
-        printf("Operación cancelada. Los juegos estan a salvo.\n");
+        printf("Operación cancelada. Los juegos están a salvo.\n");
     }
 }
 
@@ -300,5 +300,58 @@ void liberar_arbol(NodoArbol *raiz) {
         liberar_arbol(raiz->izquierdo);
         liberar_arbol(raiz->derecho);
         free(raiz);
+    }
+}
+
+void merge(Videojuego arr[], int izquierda, int medio, int derecha) {
+    int i, j, k;
+    int n1 = medio - izquierda + 1;
+    int n2 = derecha - medio;
+
+    Videojuego *L = (Videojuego*)malloc(n1 * sizeof(Videojuego));
+    Videojuego *R = (Videojuego*)malloc(n2 * sizeof(Videojuego));
+
+    for (i = 0; i < n1; i++) L[i] = arr[izquierda + i];
+    for (j = 0; j < n2; j++) R[j] = arr[medio + 1 + j];
+
+    i = 0; 
+    j = 0; 
+    k = izquierda; 
+
+    while (i < n1 && j < n2) {
+        if (L[i].rating >= R[j].rating) {
+            arr[k] = L[i];
+            i++;
+        } else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
+
+    while (i < n1) {
+        arr[k] = L[i];
+        i++;
+        k++;
+    }
+
+    while (j < n2) {
+        arr[k] = R[j];
+        j++;
+        k++;
+    }
+
+    free(L);
+    free(R);
+}
+
+void merge_sort_recursivo(Videojuego arr[], int izquierda, int derecha) {
+    if (izquierda < derecha) {
+        int medio = izquierda + (derecha - izquierda) / 2;
+
+        merge_sort_recursivo(arr, izquierda, medio);
+        merge_sort_recursivo(arr, medio + 1, derecha);
+
+        merge(arr, izquierda, medio, derecha);
     }
 }
