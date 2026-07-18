@@ -8,8 +8,8 @@ Algoritmos a implementados:
 
 Objetivos
 
-Objetivo General: Desarrollar una aplicación modular en consola, denominada "MiJo Games", utilizando exclusivamente el lenguaje de programación C para centralizar bibliotecas de videojuegos en una base de datos ligera y eficiente en memoria dinámica.
-Objetivos Específicos:
+    -Objetivo General: Desarrollar una aplicación modular en consola, denominada "MiJo Games", utilizando exclusivamente el lenguaje de programación C para centralizar bibliotecas de videojuegos en una base de datos ligera y eficiente en memoria dinámica.
+Objetivos Específicos
     - Modelar cada registro de videojuego como un nodo individual que almacene su ID único, título, calificación de usuarios, género y plataforma de origen.
     - mplementar un algoritmo de búsqueda e inserción basado en un Árbol AVL para automatizar el balanceo y permitir búsquedas casi instantáneas por título o ID.
     - Aplicar algoritmos de ordenamiento avanzado (Merge Sort o Quick Sort) volcando los datos en un arreglo dinámico para generar rankings de popularidad.
