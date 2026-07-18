@@ -1,0 +1,248 @@
+2054;Zenless Zone Zero;epic;8.20;Accion RPG
+2055;Redout 2;epic;7.70;Carreras
+2056;Idle Champions of the Forgotten Realms;epic;6.80;Estrategia
+2057;Marvel's Midnight Suns;epic;8.10;Estrategia por Turnos
+1202;Wuthering Waves;steam;8.30;Accion RPG
+2058;Farming Simulator 22;epic;8.20;Simulacion
+2059;Dragon Age: Inquisition;epic;8.50;Rol (RPG)
+2060;Circus Electrique;epic;7.20;Estrategia por Turnos
+1135;Orcs Must Die! 3;steam;8.40;Estrategia
+2061;Cat Quest II;epic;7.70;Accion RPG
+2062;Predecessor;epic;7.80;MOBA
+2063;Call of the Wild: TheAngler;epic;7.00;Simulacion
+2064;Genshin Impact;epic;8.30;Accion RPG
+2065;Astro Duel 2;epic;7.10;Accion
+2066;Aerial_Knight's Never Yield;epic;6.90;Runner
+2067;Lost Castle;epic;7.80;Roguelike
+2068;Doors: Paradox;epic;7.60;Puzles
+2069;Infinifactory;epic;8.50;Puzles
+2070;LOVE;epic;7.20;Plataformas
+2071;Marvel's Guardians of the Galaxy;epic;8.60;Accion
+2072;A Plague Tale: Innocence;epic;8.30;Aventura Narrativa
+2073;20 Minutes Till Dawn;epic;7.90;Roguelike
+2074;Escape Academy;epic;7.90;Puzles
+2075;Ghostrunner;epic;8.10;Accion
+2076;Saints Row;epic;6.20;Accion
+1001;Mecha Chameleon;steam;7.20;Casual
+1002;MudRunner;steam;8.80;Simulacion
+1003;The Life and Suffering of Sir Brante;steam;9.10;Rol Narrativo
+1004;Ore Factory Squad Demo;steam;7.50;Estrategia
+1005;Catch Me!;steam;7.00;Accion
+1006;Marvel's Spider-Man: Miles Morales;steam;9.30;Accion
+1007;Portal;steam;9.80;Puzles
+1008;Portal 2;steam;9.90;Puzles
+1009;The Red Lantern;steam;7.80;Supervivencia
+1010;Happy's Humble Burger Farm;steam;7.60;Terror Psicologico
+1011;Sons of the Forest;steam;8.60;Supervivencia Terror
+1012;Remothered: Tormented Fathers;steam;7.20;Survival Horror
+1013;Winexy;steam;6.50;Casual
+1014;Gravity Circuit;steam;8.90;Plataformas
+1015;Drift86;steam;8.00;Carreras
+1016;NBA 2K26;steam;6.20;Deportes
+1017;Buckshot Roulette;steam;9.50;Terror
+1018;Dino Running from a Furry;steam;7.10;Casual
+1019;Bunny Guys!;steam;6.80;Plataformas
+1020;Bunny Hurling;steam;6.40;Casual
+1021;Car Mechanic Simulator 2018;steam;9.00;Simulacion
+1022;Geometry Dash;steam;9.70;Ritmo
+1023;Yugo the non-game;steam;7.40;Casual
+1024;Tomb Raider;steam;9.30;Accion
+1025;Hoop Land;steam;8.50;Deportes
+1026;Hoop Land Demo;steam;8.00;Deportes
+1027;SurrounDead Poly Construction;steam;7.60;Supervivencia
+1028;Aeonic;steam;6.90;Aventura
+1029;8:AM;steam;7.00;Terror Psicologico
+1030;Nocturnal;steam;7.80;Accion
+1031;RV There Yet?;steam;7.20;Aventura
+1032;Golf With Your Friends;steam;9.00;Deportes
+1033;My Voice Zoo;steam;6.70;Casual
+1034;Nine Hells;steam;6.30;Terror
+1035;Stickman Killing Zombies!;steam;7.10;Accion
+1036;Cold Road;steam;7.30;Supervivencia
+1037;Legend of Keepers;steam;8.10;Estrategia
+1038;Graveyard Keeper;steam;8.60;Simulacion
+1039;House Flipper;steam;9.30;Simulacion
+1040;Depths of Horror;steam;6.50;Terror
+1041;Dead by Daylight;steam;8.10;Terror Asimetrico
+1042;Cities: Skylines;steam;9.30;Simulacion
+1043;Ori and the Blind Forest;steam;9.60;Plataformas
+1044;Ori and the Blind Forest Definitive Edition;steam;9.70;Plataformas
+1045;Paragnosia;steam;6.80;Terror
+1046;Delivery & Beyond;steam;7.00;Casual
+1047;Dragon Ball FighterZ;steam;9.10;Peleas
+1048;Magellania;steam;7.30;Anime
+1049;The Battle of Polytopia;steam;9.50;Estrategia por Turnos
+1050;Doki Doki Literature Club Plus!;steam;9.60;Terror Psicologico
+1051;Cursedland;steam;6.50;Terror
+1052;Along the Edge;steam;8.40;Novela Visual
+1053;Kiki;steam;7.20;Casual
+1054;Cult of the Lamb;steam;9.40;Roguelike
+1055;Gone Fishing;steam;7.00;Casual
+1056;RimWorld;steam;9.80;Simulacion de Colony
+1057;Overcooked! 2;steam;9.00;Cooperativo
+1058;Faceminer;steam;7.50;Distopia
+1059;Just Cause 3;steam;8.80;Accion
+1060;Sniper Elite III;steam;8.20;Accion
+1061;Balatro;steam;9.70;Roguelike
+1062;Subnautica;steam;9.60;Supervivencia
+1063;Billie's Wheelie;steam;6.90;Casual
+1064;Monster Hunter: World;steam;9.30;Accion
+1065;Caveman World: Mountains of Unga Boonga;steam;6.50;Plataformas
+1066;Dispatch;steam;7.40;Casual
+1067;Slime Rancher;steam;9.70;Aventura
+1068;The Deed: Dynasty;steam;8.30;Rol
+1069;Undercroft Warriors;steam;7.00;Accion
+1070;Rat Quest;steam;7.20;Casual
+1071;Banana Hell;steam;7.50;Plataformas
+1072;100% Orange Juice!;steam;9.10;Juego de Tablero
+1073;For Honor;steam;7.50;Accion
+1074;Wild Terra 2;steam;6.20;MMORPG
+1075;No Man's Sky;steam;7.80;Exploracion Espacial
+1076;Just Ignore Them;steam;7.90;Terror Pixel Art
+1077;Alan Wake;steam;8.90;Accion
+1078;Assassin's Creed Unity;steam;7.50;Accion
+1079;Assassin's Creed Valhalla;steam;7.60;Accion
+1080;Content Warning;steam;9.20;Terror Cooperativo
+1081;Black Desert;steam;7.50;MMORPG
+1082;Lumencraft;steam;8.10;Estrategia
+1083;Mortal Kombat 1;steam;7.30;Peleas
+1084;The Witcher 3: Wild Hunt;steam;9.70;Accion
+1085;Hellslave;steam;7.10;Rol
+1086;What the Fak?!;steam;6.80;Casual
+1087;Mister Furry Hot Muscles;steam;8.20;Casual
+1088;Sky: Children of the Light;steam;8.70;Aventura
+1089;Borderlands 2;steam;9.50;Shooter
+1090;Plague Inc: Evolved;steam;9.40;Estrategia
+1091;Rebel Inc: Escalation;steam;8.50;Estrategia
+1092;Undertale;steam;9.60;Rol (RPG)
+1093;Cuphead;steam;9.60;Accion
+1094;Mini Motorways;steam;9.60;Estrategia
+1095;Resident Evil 6;steam;7.90;Accion
+1096;Dying Light;steam;9.50;Supervivencia
+1097;Metro 2033 Redux;steam;9.30;Shooter
+1098;Devil May Cry HD Collection;steam;9.20;Accion
+1099;Rec Room;steam;8.50;Social
+1100;Golden Light;steam;8.90;Terror Roguelike
+1101;Marvel Rivals;steam;8.50;Hero Shooter
+1102;Mini Thief;steam;7.40;Sigilo
+1103;Run Prop Run!;steam;7.60;Multijugador
+1104;Doom;steam;9.50;Shooter
+1105;Mad Max;steam;9.10;Accion
+1106;The Walking Dead;steam;9.70;Aventura Narrativa
+1107;Alice: Madness Returns;steam;8.90;Accion
+1108;Beyond: Two Souls;steam;8.80;Aventura Narrativa
+1109;Celeste;steam;9.70;Plataformas
+1110;Sneak Out;steam;7.50;Multijugador
+1111;Assassin's Creed Origins;steam;8.60;Accion
+1112;Hollow Knight;steam;9.70;Metroidvania
+1113;Star Wars Jedi: Fallen Order;steam;8.90;Accion
+1114;Banana Shooter;steam;8.40;Shooter
+1115;Left 4 Dead;steam;9.60;Shooter Cooperativo
+1116;Batman: Arkham Knight;steam;9.00;Accion
+1117;The Forest;steam;9.50;Supervivencia Terror
+1118;Throne and Liberty;steam;7.10;MMORPG
+1119;Left 4 Dead 2;steam;9.70;Shooter Cooperativo
+1120;Muck;steam;9.30;Supervivencia
+1121;Supermarket Together;steam;8.80;Simulacion
+1123;tModLoader;steam;9.80;Herramientas
+1124;Cakey's Twisted Bakery;steam;7.40;Terror
+1125;Terraria;steam;9.80;Sandbox
+1126;Assetto Corsa;steam;9.20;Simulacion
+1127;Puppet Master: The Game;steam;7.00;Terror Asimetrico
+1128;Dark and Darker;steam;8.10;Dungeon Crawler
+1129;MultiVersus;steam;7.20;Peleas
+1130;Warhammer 40,000: Gladius;steam;8.00;Estrategia 4X
+1131;Deceit II;steam;6.50;Terror
+1132;Deceit;steam;7.80;Terror
+1133;Hawked;steam;7.10;Shooter
+1134;Palia;steam;8.10;Simulacion de Vida
+1136;Warframe;steam;9.10;Shooter
+1137;Crab Game;steam;9.20;Multijugador
+1138;Farlight 84;steam;7.90;Battle Royale
+1139;Blackwake;steam;8.70;Accion Naval
+1140;Polygon;steam;8.30;Shooter FPS Low-Poly
+1141;Splitgate;steam;9.10;Shooter
+1142;Project: PLAYTIME;steam;7.00;Terror Asimetrico
+1143;Poppy Playtime;steam;8.10;Terror de Mascotas
+1144;StrangerZ;steam;7.20;Terror Multijugador
+1145;One-Armed Robber;steam;8.50;Simulacion
+1146;SCP: Secret Laboratory;steam;9.10;Terror Multijugador
+1147;World War Z;steam;8.40;Shooter Cooperativo
+1148;The Universim;steam;8.70;Simulacion de Dios
+1149;The Finals;steam;8.80;Shooter FPS Competitivo
+1150;Escape Memoirs: Questionable Side Stories;steam;8.20;Puzles
+1151;Escape Memoirs: Mini Stories;steam;8.30;Puzles
+1152;Night of the Full Moon;steam;9.00;Estrategia
+1153;Brawlhalla;steam;8.60;Peleas
+1154;Apex Legends;steam;7.90;Battle Royale
+1155;Counter-Strike 2;steam;8.10;Shooter Táctico
+1156;Naraka: Bladepoint;steam;8.00;Battle Royale
+1157;Metro: Last Light Complete Edition;steam;9.40;Shooter
+1158;911 Operator;steam;8.80;Simulacion
+1159;Running With Rifles;steam;8.80;Tactico
+1160;Rusted Warfare;steam;9.50;Estrategia en Tiempo Real
+1161;People Playground;steam;9.80;Sandbox
+1162;Project Zomboid;steam;9.40;Supervivencia Zombie
+1163;Euro Truck Simulator 2;steam;9.70;Simulacion
+1164;WorldBox;steam;9.40;Simulacion de Dios
+1165;Phasmophobia;steam;9.60;Terror Cooperativo
+1166;Tell Me Why;steam;8.30;Aventura Narrativa
+1167;ARK: Survival Evolved;steam;8.30;Supervivencia
+1168;The Witcher Enhanced Edition;steam;8.50;Rol (RPG)
+1169;Batman: The Enemy Within;steam;9.10;Aventura Narrativa
+1171;Middle-earth: Shadow of Mordor;steam;9.10;Accion
+1172;Middle-earth: Shadow of War;steam;8.80;Accion
+1173;Detroit: Become Human;steam;9.50;Aventura Narrativa
+1174;Injustice 2;steam;8.60;Peleas
+1175;Mortal Kombat 11;steam;9.00;Peleas
+1176;Warhammer: Vermintide 2;steam;8.90;Accion Cooperativa
+1177;Wednesdays;steam;7.50;Terror Surrealista
+1178;Fishing Planet;steam;8.20;Simulacion
+1179;Bully: Scholarship Edition;steam;8.90;Mundo Abierto
+1180;Space Pilgrim;steam;8.00;Rol
+1181;Distant Space;steam;7.40;Estrategia
+1182;Batman 2: DC Super Heroes;steam;8.90;LEGO
+1183;LEGO The Lord of the Rings;steam;9.00;LEGO
+1184;LEGO The Hobbit;steam;8.70;LEGO
+1185;Banana;steam;8.00;Casual
+1186;Slapshot: Rebound;steam;8.40;Deportes
+1187;Pico Park;steam;9.00;Cooperativo
+1188;We Were Here;steam;9.10;Cooperativo
+1189;Space Engineers;steam;8.90;Construccion
+1190;Doom Eternal;steam;9.60;Shooter FPS
+1191;Hades;steam;9.80;Roguelike
+1192;Skate.;steam;8.50;Deportes
+1193;Hollow Knight: Silksong;steam;9.50;Metroidvania
+1194;LAN Party;steam;7.30;Casual
+1195;Devil May Cry 4 Special Edition;steam;9.10;Accion
+1196;Peak;steam;7.00;Casual
+1197;Loddlenaut;steam;9.40;Aventura
+1198;Stardew Valley;steam;9.80;Simulacion de Granja
+1199;Guntouchables;steam;7.60;Accion
+1200;Aimlabs;steam;9.40;Entrenamiento
+1201;Civilization VI;steam;9.20;Estrategia 4X
+1203;Garry's Mod;steam;9.60;Sandbox
+1204;Blasphemous;steam;9.30;Metroidvania
+1205;Halo: The Master Chief Collection;steam;9.30;Shooter
+1206;SteamWorld Dig;steam;9.20;Aventura
+1207;Devil May Cry 5;steam;9.50;Accion
+1208;Tom Clancy's Rainbow Six Siege;steam;8.60;Tactico
+1209;ARK: Survival of the Fittest;steam;7.20;Battle Royale
+1210;Little Nightmares;steam;9.40;Terror
+1211;Assassin's Creed II;steam;9.00;Accion
+1212;Assassin's Creed Brotherhood;steam;9.20;Accion
+1213;Assassin's Creed Revelations;steam;8.80;Accion
+1214;Assassin's Creed III Remastered;steam;8.00;Accion
+1215;Assassin's Creed IV Black Flag;steam;9.50;Accion
+1216;Assassin's Creed Rogue;steam;8.50;Accion
+1217;Assassin's Creed Syndicate;steam;8.20;Accion
+1218;Assassin's Creed Odyssey;steam;8.90;Accion
+1219;God of War (2018);steam;9.70;Accion
+1220;God of War Ragnarök;steam;9.60;Accion
+1221;Red Dead Redemption 2;steam;9.80;Accion
+1222;Grand Theft Auto V;steam;9.50;Accion
+1223;Elden Ring;steam;9.70;Souls-like
+1224;Cyberpunk 2077;steam;9.00;Accion RPG
+1225;The Last of Us Part I;steam;9.20;Accion
+2077;spiderman 2;steam;10.00;campa�a
+2078;fifa 27;epic;8.00;deportes
