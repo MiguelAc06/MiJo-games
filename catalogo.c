@@ -140,14 +140,6 @@ void mostrar_ordenado_rating() {
     }
 }
 
-void mostrar_biblioteca_general() {
-    printf("\n--- BIBLIOTECA GENERAL ---\n");
-    for(int i = 0; i < total_juegos; i++) {
-        printf("ID: %d | %s | Plataforma: %s | Rating: %.1f | Cat: %s\n", 
-               catalogo[i].id, catalogo[i].nombre, catalogo[i].plataforma, catalogo[i].rating, catalogo[i].categoria);
-    }
-}
-
 void mostrar_biblioteca_plataforma(const char* plataforma) {
     printf("\n--- BIBLIOTECA DE %s ---\n", plataforma);
     int cont = 0;
@@ -354,4 +346,23 @@ void merge_sort_recursivo(Videojuego arr[], int izquierda, int derecha) {
 
         merge(arr, izquierda, medio, derecha);
     }
+}
+
+void recorrido_inorden(NodoArbol *raiz) {
+    if (raiz != NULL) {
+        recorrido_inorden(raiz->izquierdo);
+        printf("ID: %d | %s | Plataforma: %s | Rating: %.1f | Cat: %s\n", 
+               raiz->dato.id, raiz->dato.nombre, raiz->dato.plataforma, 
+               raiz->dato.rating, raiz->dato.categoria);
+        recorrido_inorden(raiz->derecho);
+    }
+}
+
+void mostrar_biblioteca_general() {
+    if (total_juegos == 0) {
+        printf("\nNo hay juegos en la biblioteca para mostrar.\n");
+        return;
+    }
+    printf("\n--- BIBLIOTECA GENERAL (ORDEN ALFABÉTICO A-Z) ---\n");
+    recorrido_inorden(raiz_arbol);
 }
